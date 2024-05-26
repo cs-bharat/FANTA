@@ -54,7 +54,7 @@ let tl2 = gsap.timeline({
         start:'0% 40%',  // scroll start level
         end:'90% 70%', // scroll start level
         scrub : true, // reverse animation deta hellk
-        markers: true 
+        markers: false
     }
 });
 

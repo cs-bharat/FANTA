@@ -3,12 +3,12 @@
                 src:url: ()
 */
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:  'Arial Narrow Bold', sans-serif;
+    
 }
 body::-webkit-scrollbar{
     display: none;
@@ -38,10 +38,12 @@ nav a{
     color: #fff;
     opacity: 0.7;
 }
+
 .cent-nav{
     display: flex;
     gap: 3vw;
 }
+
 nav,i{
     font-size: 1.5vw;
     color: #fff;
@@ -56,13 +58,16 @@ nav,i{
     justify-content: center;
     position: relative;
     background: linear-gradient(120deg,rgb(238, 103, 0) rgb(255,85,0));
+    max-width: 100%;
 }
+
 #fanta{
     width: 40%;
     z-index: 2;
     position: absolute;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 }
+
 #orange-cut{
     width: 13%;
     position: absolute;
